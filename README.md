@@ -40,7 +40,8 @@ Thank you to Drexel's BEES department, whose generous travel funding made attend
 # Contact
 
 Any questions or comments? Please reach out at jon.treadwell.merwin@drexel.edu
-Follow me @merwinjon
+
+Follow me: @merwinjon
 
 
 
