@@ -5,10 +5,10 @@ Does phenotypic convergence arise due to parallel mutations on orthologous genes
 
 # Supplementary Methodological Information
 
-PacBio sequence of a _Ramphastos vitellinus ariel_
-Alongside 23 other taxa, including a zebra finch reference downloaded from NCBI
+We PacBio sequenced a _Ramphastos vitellinus ariel_
+and compared that genome to publically available whole genomes for 23 other taxa, including a zebra finch reference downloaded from NCBI
 
-Assemblies mapped using RagTag to zebra finch reference
+PacBio scaffolds were mapped to Zebra Finch pseudo-chromosomes using RagTag.
 
 Orthologs identified using BUSCO, amino acids and nucleotides aligned using MACSE
 
@@ -20,7 +20,7 @@ Amino Acid trees constructed using IQtree.
 Topology outliers selected using custom R script, but also used methods from phylogenetics packages (phytools, ape, geiger) etc.
 Retained genes with discordant topologies where Tocuans and Hornbills were more closely related than expected based on species tree.
 
-dN/dS test was run using the ABSREL model in HyPhy (Examines dN/dS ratios at individual sites within genes on certain branches)
+dN/dS test was run using the ABSREL model in HyPhy (Examines dN/dS ratios within genes on certain test branches)
 Compared dN/dS at nodes preceding splits within Toucans and Hornbills to background dN/dS.
 Genes were considered under selection based on FDR Corrected P Values < .05. 
 
@@ -37,6 +37,9 @@ Images from HBW, Kacau Oliveira, San Diego Zoo.
 Thank you to the Weckstein Lab (Emily Griffith, Kamila Kuabara, Matthew Soesanto, Calvin Keeys, Nate Rice, Dan Thomas) for their insight and feedback improving this work. 
 Thank you to Drexel's BEES department, whose generous travel funding made attending and presenting at this conference possible. 
 
+# Contact
+
+Any questions or comments? Please reach out at jon.treadwell.merwin@drexel.edu
 
 
 
